@@ -1,5 +1,6 @@
+import type { NextConfig } from "next";
 
-const nextConfig = {
+const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "avatars.githubusercontent.com" },
@@ -9,10 +10,6 @@ const nextConfig = {
 
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
-  },
-
-  experimental: {
-    optimizeCss: true,
   },
 
   async headers() {
