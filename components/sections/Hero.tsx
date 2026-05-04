@@ -7,9 +7,12 @@ import SocialIcon from "@/components/ui/SocialIcon";
 
 const ROLES = [
   "Full Stack Developer",
+  "React & Next.js Specialist",
+  "Frontend Engineer",
+  "Backend Developer",
   "UI/UX Enthusiast",
-  "Open Source Contributor",
   "Problem Solver",
+  "Open Source Contributor",
 ];
 
 export default function Hero() {

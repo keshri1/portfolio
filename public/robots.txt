@@ -1,0 +1,17 @@
+# Robots.txt for Sunny Keshri - Full Stack Developer Portfolio
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /.well-known/
+Disallow: /.next/
+Disallow: /private/
+
+# Sitemaps
+Sitemap: https://keshri-dev.vercel.app/sitemap.xml
+
+# Slow crawlers
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10

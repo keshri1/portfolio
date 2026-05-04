@@ -24,12 +24,21 @@ export default function About() {
             {personalInfo.bio}
           </p>
           <p
-            className="reveal reveal-delay-3 leading-relaxed"
+            className="reveal reveal-delay-3 leading-relaxed mb-6"
             style={{ color: "var(--ink-muted)" }}
           >
-            I believe great software is the intersection of thoughtful engineering and
-            human-centred design. I take pride in writing clean, tested, and well-documented
-            code that my teammates enjoy maintaining.
+            As a full-stack developer, I specialize in building scalable, performant applications using 
+            <strong> React, Next.js, TypeScript, and Node.js</strong>. I believe great software is the 
+            intersection of thoughtful engineering and human-centred design. I take pride in writing clean, 
+            tested, and well-documented code that my teammates enjoy maintaining.
+          </p>
+          <p
+            className="reveal reveal-delay-4 leading-relaxed"
+            style={{ color: "var(--ink-muted)" }}
+          >
+            With experience across <strong>Fintech, BFSI, and Healthcare</strong> sectors, I've led frontend 
+            development for enterprise platforms. My expertise spans REST APIs, GraphQL, database design, AWS, 
+            and modern development practices.
           </p>
         </div>
 

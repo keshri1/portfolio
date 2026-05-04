@@ -26,7 +26,7 @@ export const personalInfo: PersonalInfo = {
   socials: [
     { label: "GitHub", href: "https://github.com/keshri1", icon: "github" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/keshri1/", icon: "linkedin" },
-    { label: "Twitter", href: "https://twitter.com/yourusername", icon: "twitter" },
+    { label: "Twitter", href: "https://x.com/sunny_keshri1", icon: "twitter" },
     { label: "Email", href: "mailto:mailtokeshri1@gmail.com", icon: "mail" },
   ],
 };
