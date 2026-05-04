@@ -68,6 +68,11 @@ export const metadata: Metadata = {
     creator: "@keshri1_dev",
     images: ["https://keshri-dev.vercel.app/og-image.png"],
   },
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   robots: {
     index: true,
     follow: true,
