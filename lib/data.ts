@@ -13,6 +13,7 @@ export const navItems: NavItem[] = [
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" },
+  { label: "Blog", href: "#blogs" },
 ];
 
 export const personalInfo: PersonalInfo = {
@@ -190,5 +191,28 @@ export const skillCategories: SkillCategory[] = [
       "Figma", "Storybook", "Playwright",
       "Git", "Postman", "Insomnia",
     ],
+  },
+];
+
+export interface BlogPost {
+  slug: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  readTime: string;
+  tags: string[];
+  featured: boolean;
+}
+
+export const blogPosts: BlogPost[] = [
+  {
+    slug: "understanding-hydration-react-nextjs",
+    title: "Understanding Hydration in React and Next.js",
+    excerpt:
+      "Hydration is one of the most misunderstood concepts in modern frontend engineering. Here's how it actually works, why it matters at scale, and how to debug and optimise it.",
+    date: "2025-05-12",
+    readTime: "8 min read",
+    tags: ["React", "Next.js", "Performance", "SSR"],
+    featured: true,
   },
 ];

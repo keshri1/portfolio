@@ -12,7 +12,7 @@ export default function Footer() {
     >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-sm font-mono">
-          © {year} {personalInfo.name}. Designed & built with care.
+          © {year} {personalInfo.name}
         </p>
 
         <div className="flex items-center gap-4">

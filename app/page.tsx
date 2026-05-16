@@ -8,6 +8,7 @@ import Contact from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
 import ScrollProgress from "@/components/ui/ScrollProgress";
 import RevealObserver from "@/components/ui/RevealObserver";
+import Blogs from "@/components/sections/Blogs";
 
 export default function Home() {
   const structuredData = {
@@ -26,38 +27,16 @@ export default function Home() {
       "https://www.linkedin.com/in/keshri1/",
       "https://x.com/sunny_keshri1",
     ],
-    location: {
-      "@type": "Place",
-      name: "Bengaluru, India",
-    },
+    location: { "@type": "Place", name: "Bengaluru, India" },
     knowsAbout: [
-      "Full Stack Development",
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Node.js",
-      "UI/UX Design",
-      "Web Development",
-      "Frontend Development",
-      "Backend Development",
-      "PostgreSQL",
-      "AWS",
-      "GraphQL",
-      "REST APIs",
+      "Full Stack Development","React","Next.js","TypeScript",
+      "Node.js","UI/UX Design","Web Development","Frontend Development",
+      "Backend Development","PostgreSQL","AWS","GraphQL","REST APIs",
     ],
     worksFor: [
-      {
-        "@type": "Organization",
-        name: "Wipro Technologies",
-      },
-      {
-        "@type": "Organization",
-        name: "Cognizant",
-      },
-      {
-        "@type": "Organization",
-        name: "Tata Consultancy Services",
-      },
+      { "@type": "Organization", name: "Wipro Technologies" },
+      { "@type": "Organization", name: "Cognizant" },
+      { "@type": "Organization", name: "Tata Consultancy Services" },
     ],
   };
 
@@ -76,6 +55,7 @@ export default function Home() {
         <Experience />
         <Projects />
         <Skills />
+        <Blogs />
         <Contact />
         <Footer />
       </main>
